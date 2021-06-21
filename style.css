@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html * {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: #2e282a;
+  display: flex;
+  flex-direction: column;
+}
+#Nav {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  background: #f3f3f4;
+  outline: #d9c5b2 3px solid;
+}
+#Nav #btn * {
+  margin-right: 15px;
+}
+#Nav h2 {
+  margin-left: 15px;
+}
+#middle {
+  height: 850px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 747px;
+}
+#Liste {
+  height: 700px;
+  width: 15vw;
+  min-width: 150px;
+  background: #f3f3f4;
+  border-radius: 5px;
+  border: 3px solid #d9c5b2;
+}
+#tchat {
+  height: 706px;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 532px;
+}
+#Aff {
+  width: 100%;
+  height: 550px;
+  background: #f3f3f4;
+  border-radius: 5px;
+  border: 3px solid #d9c5b2;
+  margin-bottom: 50px;
+}
+#Message {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Message input {
+  width: 70%;
+  height: 50px;
+  background: #f3f3f4;
+  border-radius: 5px;
+  border: 3px solid #d9c5b2;
+  font-size: 2.2em;
+}
+#Message button {
+  width: 20%;
+  height: 50px;
+  background: #f3f3f4;
+  border-radius: 5px;
+  border: 3px solid #d9c5b2;
+  font-size: 1.5em;
+}
